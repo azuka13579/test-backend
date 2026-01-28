@@ -22,6 +22,7 @@ Route::get('/user', function (Request $request) {
 
 // Public Route
 Route::post('/login', [AuthController::class, 'login']);
+Route::get('/anjay', [AuthController::class, 'test']);
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('/logout', [AuthController::class, 'logout']);
