@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\CommentController as ApiCommentController;
-use App\Http\Controllers\api\PostController as ApiPostController;
+use App\Http\Controllers\Api\PostController as ApiPostController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\StudentController;
